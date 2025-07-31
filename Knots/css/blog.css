@@ -1,0 +1,429 @@
+:root{
+   --base-color:rgb(243,223,247);
+   --text-color: black;
+   --active-color:  rgb(85,13, 153);
+   --activehover-color: rgb(238,216, 93);      
+   --blogbtn-color:rgba(0,0, 0, 0.89);
+   --blogbtnhover-color:rgba(44, 36, 44, 0.74);
+   --socials-color:rgb(21, 0, 41);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--base-color);
+}
+
+/* navbar*/
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0; 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px;
+    color:  var(--base-color);                                                                                                                                                                                       
+}
+.corel{
+     width:58px;
+    height: 55px;
+    margin-left: 60px;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+}
+
+.navlinks li{
+    margin: 0 30px;
+}
+.navlinks li a:hover{
+    color: var(--active-color);
+}
+.logo{
+    font-family: french script MT;
+    font-size: xx-large;
+}
+/* navbar*/
+
+header{
+    width: 100vw;
+    height: 100vh;
+     background: url(../pics/jan-kraus-CIHUMp16GlQ-unsplash.jpg) center/
+    cover no-repeat fixed ;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.headercont{
+    margin-bottom: 200px;
+    color:   var(--base-color);
+    text-align: center;
+}
+.headercont h2{
+    font-size: 4vmin;
+}
+.headercont h3{
+    color:  var(--base-color);
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: var(--active-color);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.headercont h3{
+    font-size: 7vmin;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+a{
+    text-decoration: none;
+    color: var(--base-color);
+}
+ul{
+    list-style: none;
+}
+.activate{
+    color:var(--active-color) ;
+    text-decoration: underline;
+    font-weight:bold ;
+}
+.ctn{
+    padding: 8px 15px;
+    border-radius: 30px;
+    background:var(--active-color);
+    color:  var(--base-color);
+}
+.ctn:hover{
+    background-color:var(--activehover-color);
+    color: var(--active-color);
+    font-weight: 700;
+}
+
+.intro{
+    text-align: center;
+    padding: 1rem 0;
+}
+.intro h2{
+    font-family: 'Times New Roman';
+    font-size: 2.4rem;
+    text-transform: capitalize;
+}
+.intro p{
+    text-transform: uppercase;
+    padding: 0.6rem 0;
+    font-size: 1.2rem;
+}
+.descont{
+    margin: 2rem 0;
+}
+.desitem{
+    cursor: pointer;
+    margin: 80px 0;
+    justify-self: center;
+}
+.desimg{
+    position: relative;
+    overflow: hidden;
+    width: 290px;
+    height: 320px;
+    border-radius: 30px;
+     justify-self: center;
+}
+.desimg::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+}
+.desimg img{
+    transition: all 0.5s ease;
+    width: 290px;
+    height: 320px;
+    border-radius: 30px;
+}
+.desimg:hover img{
+    transform: scale(1.2);
+    overflow: hidden;
+}
+
+.desimg span{
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    right: 10px;
+    color: var(--base-color);
+    font-weight:700;
+    font-size: 1.1rem;
+}
+.destitle{
+    padding: 1rem;
+    font-size: 1.2rem;
+    width: 70%;
+    margin: 0 auto;
+    position:relative ;
+    text-align: center;
+}
+.destitle a{
+    color: rgba(59, 1, 59, 0.986);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: cambria;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.blog{
+    background: var(--base-color) ;
+    padding: 4.5rem 0;
+}
+.blogcont{
+    margin: 2rem 0;
+}
+.blogimg{
+    position: relative;
+}
+.blogimg img{
+    width: 290px;
+    height: 300px;
+    border-radius: 30px;
+}
+.blogitem{
+    margin-left: 60px;
+}
+.menubtna{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+.blogimg span{
+    position:relative;
+    bottom: 43px;
+    left: 235px;
+    background: rgba(128, 0, 128, 0.445);
+    color:  rgb(243, 223, 247);
+    font-size: 1.4rem;
+    padding: 0.3rem 0.6rem;
+    width: 40px;
+    height: 25px;
+    display:flex;
+    padding-bottom: 10px;
+}
+.blogtext{
+    margin: 2.2rem 0;
+    padding: 0.1rem;
+}
+.blogtext span{
+    font-weight: 300;
+    display: block;
+    padding-bottom: 0.5rem;
+}
+.blogtext h2{
+    font-family: 'Times New Roman';
+    padding: 1rem 0;
+    font-size: 1.65rem;
+    font-weight: 500;
+}
+.blogtext p{
+    font-weight: 300;
+    font-size: 1.1rem;
+    opacity: 0.9;
+    padding-bottom: 1.2rem;
+}
+.blogtext a{
+    font-family: book antiqua;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: rgb(243, 223, 247); 
+    display: inline-block;
+    background: var(--blogbtn-color) ;
+    padding: 0.5rem 1.2rem;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+}
+.blogtext a:hover{
+    background: var(--blogbtnhover-color);
+}
+/*for post page*/
+.postnav a{
+    color: black;
+    display: flex;
+    float: right;
+    margin-right: 60px;
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+.postnav a:hover{
+    color: var(--active-color);
+    text-decoration: underline;
+}
+.filterDiv {
+  display: none; /* Hidden by default */
+}
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 12px 16px;
+  background-color: var(--base-color);
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #9e83a7;
+}
+.btn.active {
+  background-color: #736c74;
+  color: white;
+}
+.pagination a {
+  color: var(--text-color);
+  align-self: center;
+  border-radius: 10px;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  margin-bottom: 10px;
+}
+
+.pagination a.active {
+  background-color: #736c74;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+   background-color: #9e83a7;
+  }
+/*for post page*/
+footer{
+    width: 100vw;
+    height: 23vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+footer .fo{
+    
+    top: 50%;
+    position: relative;
+    width: 37px;
+    height: 37px;
+     padding: 10px 10px;
+    border-radius: 30px;
+    background:var(--socials-color);
+    color:  var(--base-color);
+    font-weight: 600;
+    transition: all .5s ease;
+}
+footer a{
+    left:99% ;
+    top: 50%;
+    position: relative;
+     width: 37px;
+    height: 37px;
+     padding: 10px 10px;
+      border-radius: 30px;
+    background:var(--socials-color);
+    color:  var(--base-color);
+    font-weight: 600;
+    transition: all .5s ease;
+}
+footer a:hover{
+     background-color:var(--activehover-color) ;
+    color:var(--activehover-color);
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 70px; /* Place the button at the bottom of the page */
+  right: 120px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: var(--socials-color); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  border-radius: 30px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color:var(--activehover-color); /* Add a dark-grey background on hover */
+}
+
+/* for nav*/
+@media only screen and (max-width:850px){
+    .corel{
+        width: 38px;
+        height: 35px;
+        margin-left: 20px;
+    }
+    .logo{
+        font-size: x-large;
+    }
+}
+/* for nav*/
+
+/* for blogs*/
+@media screen and (min-width: 540px){
+    .descont{
+        justify-items: center;
+    }
+    .blogcont
+    {justify-content: center;}
+}
+@media screen and (min-width: 760px){
+    .search{
+        padding: 0.8rem 0;
+    }
+    .descont{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .desitem{
+        margin: 0;
+    }
+    .blogcont{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+@media screen and (min-width: 950px){
+    .descont{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    .blogcont{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }    
+}
+
+/* for blogs*/

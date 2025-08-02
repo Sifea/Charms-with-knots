@@ -1,0 +1,456 @@
+:root{
+   --base-color:rgb(243,223,247);
+   --text-color: black;
+   --active-color:  rgb(85, 13, 153);
+   --activehover-color: rgb(238, 216, 93);      
+   --blogbtn-color:rgba(0, 0, 0, 0.89);
+   --blogbtnhover-color:rgba(44, 36, 44, 0.74);
+   --socials-color:rgb(21, 0, 41);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--base-color);
+}
+
+/* navbar*/
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0; 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px;
+    color:  var(--base-color);                                                                                                                                                                                       
+}
+.corel{
+     width:58px;
+    height: 55px;
+    margin-left: 60px;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+}
+
+.navlinks li{
+    margin: 0 20px;
+}
+.navlinks li a:hover{
+    color: var(--active-color);
+}
+.logo{
+    font-family: french script MT;
+    font-size: xx-large;
+}
+/* navbar*/
+header{
+    width: 100vw;
+    height: 100vh;
+   background: url(../pics/tara-evans-IcvR0jFbsz0-unsplash.jpg) center/
+    cover no-repeat fixed ;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.headercont{
+    margin-bottom: 200px;
+    color:  var(--base-color);
+    text-align: center;
+}
+.headercont h2{
+    font-size: 4vmin;
+}
+.headercont h3{
+    color: var(--base-color);
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: var(--active-color);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.headercont h3{
+    font-size: 7vmin;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+a{
+    text-decoration: none;
+    color:var(--base-color);
+}
+ul{
+    list-style: none;
+}
+.active{
+    color:var(--active-color);
+    text-decoration: underline;
+    font-weight:bold ;
+}
+.ctn{
+    padding: 8px 15px;
+    border-radius: 30px;
+    background:var(--active-color);
+    color: var(--base-color);
+}
+.ctn:hover{
+    background-color:var(--activehover-color);
+    color: var(--active-color);
+    font-weight: 700;
+}
+
+.tittle{
+    text-align: center;
+    padding:3.5rem 0 0;
+    text-transform:capitalize ;
+}
+.tittle h2{
+    font-family: 'Times New Roman';
+    font-size: 2.4rem;
+    color: var(--text-color);
+}
+.tittle p{
+    text-transform: capitalize;
+    padding: 0.9rem 0;
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+.cardimg{
+    display: block;
+    height: 330px;
+    width: 200px;
+    border-radius: 1.5rem;
+    opacity: 0.9;
+}
+
+.cont{
+
+    place-items: center;
+    margin-inline: 1.5rem;
+    padding-block: 5rem;
+
+}
+.cardcont{
+    display: grid;
+    row-gap: 3.5rem;
+    column-gap: 50px;
+}
+
+.cardart{
+    position: relative;
+    overflow: hidden;
+}
+
+.cardart:hover .data{
+    animation: show-data 1s forwards;
+    opacity: 1;
+    transition: opacity .3s;
+}
+
+.cardart:hover{
+    animation: remove-overflow 2s forwards;
+}
+
+.cardart:not(:hover){
+    animation: show-overflow 2s forwards;
+}
+
+.cardart:not(:hover) .data{
+    animation: remove-data 1s forwards;
+}
+.data{
+    width: 280px;
+    background-color: rgb(238, 234, 241);
+    padding: 1.5rem 2.5rem;
+    box-shadow: 0 8px 24px hsla(0, 0%, 0%, 15);
+    border-radius: 1.5rem;
+    position: absolute;
+    bottom: -9rem;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    opacity: 0;
+    transition: opacity 1s 1s;
+}
+
+.cardred{
+    display: block;
+    font-size: small;
+    margin-bottom: .25rem;
+}
+
+.title{
+    font-size: medium;
+    font-weight: 500;
+    color: rgb(19, 19, 19);
+    margin-bottom: .75rem;
+}
+.cardbtn{
+    font-size: small;
+    font-weight: 500;
+    color: rgb(0, 0, 20);
+}
+.cardbtn:hover{
+    text-decoration:underline var(--active-color);
+}
+.blog{
+    background:var(--base-color) ;
+    padding: 4.5rem 0;
+}
+.blogcont{
+    margin: 2rem 0;
+}
+.blogimg{
+    position: relative;
+}
+.blogimg img{
+    width: 290px;
+    height: 300px;
+    border-radius: 30px;
+}
+.blogitem{
+    margin-left: 60px;
+}
+.menubtna{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+.blogimg span{
+    position:relative;
+    bottom: 43px;
+    left: 235px;
+    background: rgba(128, 0, 128, 0.445);
+    color: var(--base-color);
+    font-size: 1.4rem;
+    padding: 0.3rem 0.6rem;
+    width: 40px;
+    height: 25px;
+    display:flex;
+    padding-bottom: 10px;
+}
+.blogtext{
+    margin: 2.2rem 0;
+    padding: 0.1rem;
+}
+.blogtext span{
+    font-weight: 300;
+    display: block;
+    padding-bottom: 0.5rem;
+     color: var(--text-color);
+}
+.blogtext h2{
+    font-family: 'Times New Roman';
+    padding: 1rem 0;
+    font-size: 1.65rem;
+    font-weight: 500;
+     color: var(--text-color);
+}
+.blogtext p{
+    font-weight: 300;
+    font-size: 1.1rem;
+    opacity: 0.9;
+    padding-bottom: 1.2rem;
+     color: var(--text-color);
+}
+.blogtext a{
+    font-family: book antiqua;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color:var(--base-color); 
+    display: inline-block;
+    background: var(--blogbtn-color); 
+    padding: 0.5rem 1.2rem;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+}
+.blogtext a:hover{
+    background:var(--blogbtnhover-color) ;
+     color: var(--text-color);
+}
+
+.intro{
+    text-align: center;
+    padding:3.5rem 0 0;
+    text-transform:capitalize ;
+}
+.intro h2{
+    font-family: 'Times New Roman';
+    font-size: 2.4rem;
+    color: var(--text-color);
+}
+.intro p{
+    text-transform: uppercase;
+    padding: 0.6rem 0;
+    color: var(--text-color);
+}
+footer{
+    width: 100vw;
+    height: 23vh;
+    background-color: var(--text-color);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+footer .fo{
+    
+    top: 50%;
+    position: relative;
+    width: 37px;
+    height: 37px;
+     padding: 10px 10px;
+    border-radius: 30px;
+    background:rgb(21, 0, 41);
+    color: var(--base-color);
+    font-weight: 600;
+    transition: all .5s ease;
+}
+footer a{
+    left:99% ;
+    top: 50%;
+    position: relative;
+     width: 37px;
+    height: 37px;
+     padding: 10px 10px;
+      border-radius: 30px;
+    background:rgb(21, 0, 41);
+    color: var(--base-color);
+    font-weight: 600;
+    transition: all .5s ease;
+}
+footer a:hover{
+     background-color:var(--activehover-color) ;
+    color:var(--socials-color);
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 70px; /* Place the button at the bottom of the page */
+  right: 120px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: var(--socials-color); /* Set a background color */
+  color:var(--base-color); /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  border-radius: 30px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color:var(--activehover-color); /* Add a dark-grey background on hover */
+}
+/* key frames*/
+
+
+@keyframes show-data{
+    50%{
+        transform: translateY(
+            -10rem
+        );}
+
+    100%{
+        transform: translateY(-7rem);
+    }    
+}
+
+@keyframes remove-overflow{
+    to{
+        overflow: initial;
+    }
+}
+
+@keyframes remove-data{
+    0%{transform: translateY(-7rem);}
+    50%{transform: translateY(-10rem);}
+    100%{transform: translateY(.5rem);}
+}
+@keyframes show-overflow{
+    0%{
+        overflow: initial;
+        pointer-events: none;
+    }
+    50%{
+        overflow: hidden;
+    }
+}
+
+
+/* key frames*/
+
+/* for nav*/
+@media only screen and (max-width:850px){
+    .corel{
+        width: 38px;
+        height: 35px;
+        margin-left: 20px;
+    }
+    .logo{
+        font-size: x-large;
+    }
+}
+/* for nav*/
+
+/* for cards*/
+@media only screen and (min-width:1120px){
+    .cardcont{
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 50px;
+    }
+    .data{
+        padding-inline: 2.5rem;
+    }
+    .cardimg{
+        width: 328px;
+    }
+}
+@media only screen and (min-width:750px) and (max-width:1200px){
+    .cardcont{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width:850px){
+    .data{
+        width: 250px;
+    }
+    .cardimg{
+        width: 270px;
+    }
+}
+/* for cards*/
+
+/* for blog */
+
+@media screen and (min-width: 540px){
+    .blogcont
+    {justify-content: center;}
+}
+@media screen and (min-width: 760px){
+    .blogcont{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+@media screen and (min-width: 950px){
+    .blogcont{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }    
+}
+
+/* for blog */

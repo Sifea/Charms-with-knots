@@ -454,3 +454,20 @@ footer a:hover{
 }
 
 /* for blog */
+h6{
+    font-size: clamp(1.0rem, calc(10.5vw + 0.7rem), 10.5rem);
+    color: var(--socials-color);
+    text-align: center;
+    align-items: center;
+    top: 20vh;
+    position: relative;  
+    font-family:Comic Sans MS ;
+}
+h5{
+    font-size: clamp(0.5rem, calc(1rem + 1rem), 2rem );
+    top: 23vh;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    font-family: Footlight MT Light;
+}

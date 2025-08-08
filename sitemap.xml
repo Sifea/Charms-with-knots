@@ -14,28 +14,7 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-
-<!-- Postpage -->
-  <url>
-    <loc>https://charmswithknots.netlify.app/post</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-<!-- Post2page -->
-  <url>
-    <loc>https://charmswithknots.netlify.app/post2</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-<!-- Loginpage -->
-  <url>
-    <loc>https://charmswithknots.netlify.app/login</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
+  
   <!-- Blog Post 1 -->
   <url>
     <loc>https://charmswithknots.netlify.app/blogs/blog1</loc>
@@ -60,51 +39,59 @@
     <loc>https://charmswithknots.netlify.app/blogs/blog4</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url><!-- Blog Post 5 -->
+  </url>
+
+  <!-- Blog Post 5 -->
   <url>
-  
     <loc>https://charmswithknots.netlify.app/blogs/blog5</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url><!-- Blog Post 6 -->
-  <url>
+  </url>
   
+  <!-- Blog Post 6 -->
+  <url>
     <loc>https://charmswithknots.netlify.app/blogs/blog6</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url><!-- Blog Post 7 -->
-  <url>
+  </url>
   
+  <!-- Blog Post 7 -->
+  <url>
     <loc>https://charmswithknots.netlify.app/blogs/blog7</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url><!-- Blog Post 8 -->
-  <url>
+  </url>
   
+  <!-- Blog Post 8 -->
+  <url>
     <loc>https://charmswithknots.netlify.app/blogs/blog8</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url><!-- Blog Post 9 -->
-  <url>
+  </url>
   
+  <!-- Blog Post 9 -->
+  <url>  
     <loc>https://charmswithknots.netlify.app/blogs/blog9</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url><!-- Blog Post 10 -->
-  <url>
+  </url>
   
+  <!-- Blog Post 10 -->
+  <url>  
     <loc>https://charmswithknots.netlify.app/blogs/blog10</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url><!-- Blog Post 11 -->
-  <url>
+  </url>
   
+  <!-- Blog Post 11 -->
+  <url>  
     <loc>https://charmswithknots.netlify.app/blogs/blog11</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url><!-- Blog Post 12 -->
-  <url>
+  </url>
   
+  <!-- Blog Post 12 -->
+  <url>  
     <loc>https://charmswithknots.netlify.app/blogs/blog12</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

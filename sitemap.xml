@@ -1,100 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Homepage -->
   <url>
     <loc>https://charmswithknots.netlify.app/</loc>
+    <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-
-  <!-- Blogpage -->
   <url>
     <loc>https://charmswithknots.netlify.app/blog</loc>
+    <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  
-  <!-- Blog Post 1 -->
   <url>
     <loc>https://charmswithknots.netlify.app/blogs/blog1</loc>
+    <lastmod>2025-08-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- Blog Post 2 -->
   <url>
     <loc>https://charmswithknots.netlify.app/blogs/blog2</loc>
+    <lastmod>2025-08-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- Blog Post 3 -->
   <url>
     <loc>https://charmswithknots.netlify.app/blogs/blog3</loc>
+    <lastmod>2025-08-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  <!-- Blog Post 4 -->
   <url>
     <loc>https://charmswithknots.netlify.app/blogs/blog4</loc>
+    <lastmod>2025-08-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- Blog Post 5 -->
   <url>
     <loc>https://charmswithknots.netlify.app/blogs/blog5</loc>
+    <lastmod>2025-08-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  <!-- Blog Post 6 -->
   <url>
     <loc>https://charmswithknots.netlify.app/blogs/blog6</loc>
+    <lastmod>2025-08-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
- 
-  <!-- Blog Post 7 -->
   <url>
     <loc>https://charmswithknots.netlify.app/blogs/blog7</loc>
+    <lastmod>2025-08-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
- 
-  <!-- Blog Post 8 -->
   <url>
     <loc>https://charmswithknots.netlify.app/blogs/blog8</loc>
+    <lastmod>2025-08-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-   
-  <!-- Blog Post 9 -->
-  <url>  
+  <url>
     <loc>https://charmswithknots.netlify.app/blogs/blog9</loc>
+    <lastmod>2025-08-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-    
-  <!-- Blog Post 10 -->
-  <url>  
+  <url>
     <loc>https://charmswithknots.netlify.app/blogs/blog10</loc>
+    <lastmod>2025-08-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-    
-  <!-- Blog Post 11 -->
-  <url>  
+  <url>
     <loc>https://charmswithknots.netlify.app/blogs/blog11</loc>
+    <lastmod>2025-08-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-    
-  <!-- Blog Post 12 -->
-  <url>  
+  <url>
     <loc>https://charmswithknots.netlify.app/blogs/blog12</loc>
+    <lastmod>2025-08-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

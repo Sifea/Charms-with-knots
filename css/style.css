@@ -112,18 +112,19 @@ ul{
 .tittle{
     text-align: center;
     padding:3.5rem 0 0;
-    text-transform:capitalize ;
 }
 .tittle h2{
     font-family: 'Times New Roman';
     font-size: 2.4rem;
     color: var(--text-color);
+    text-transform:capitalize ;
 }
 .tittle p{
-    text-transform: capitalize;
     padding: 0.9rem 0;
     font-size: 1.5rem;
     color: var(--text-color);
+    margin-left: 150px;
+    margin-right: 150px;
 }
 .cardimg{
     display: block;
@@ -434,7 +435,16 @@ footer a:hover{
 /* for cards*/
 
 /* for blog */
-
+@media screen and (max-width: 580px){
+    .tittle p{
+    padding: 0.9rem 0;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-left: 10px;
+    margin-right: 
+    10px;
+}
+}
 @media screen and (min-width: 540px){
     .blogcont
     {justify-content: center;}

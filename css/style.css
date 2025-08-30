@@ -427,7 +427,8 @@ footer a:hover{
         width: 250px;
     }
     .cardimg{
-        width: 270px;
+        width: 240px;
+        height:290px ;
     }
 }
 /* for cards*/

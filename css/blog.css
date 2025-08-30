@@ -384,6 +384,11 @@ footer a:hover{
     .logo{
         font-size: x-large;
     }
+    .blogimg img{
+    width: 250px;
+    height: 290px;
+    border-radius: 30px;
+}
 }
 /* for nav*/
 

@@ -389,6 +389,15 @@ footer a:hover{
     height: 290px;
     border-radius: 30px;
 }
+.desimg img{
+    width: 250px;
+    height: 290px;
+    border-radius: 29px;
+}
+.desimg{
+    width: 250px;
+    height: 290px;
+}
 }
 /* for nav*/
 

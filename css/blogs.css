@@ -192,7 +192,7 @@ img{
     grid-template-columns: repeat(2, 1fr);
 }
 .posttitle a{
-    font-size: clamp(1.0rem, calc(4.5vw + 0.9rem), 2.5rem);
+    font-size: clamp(0.7rem, calc(4.5vw + 0.4rem), 2.5rem);
 }
 footer .fo ion-icon{
     top: 30%;
@@ -240,6 +240,12 @@ footer a ion-icon:hover{
     }
     img{
         margin-left: 20px;
+        width: 250px;
+        height: 270px;
+    }
+    .postimg{
+        width: 270px;
+        height: 250px;
     }
     .end{
     display: grid;
